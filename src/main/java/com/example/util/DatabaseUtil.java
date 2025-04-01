@@ -5,9 +5,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DatabaseUtil {
-    private static final String URL = "jdbc:mysql://db4free.net:3306/your_db_name?useSSL=false"; // Thay sau
-    private static final String USER = "your_db_username"; // Thay sau
-    private static final String PASSWORD = "your_db_password"; // Thay sau
+    private static final String URL = "jdbc:mysql://db4free.net:3306/login_demo_yourname?useSSL=false";
+    private static final String USER = "yourusername";
+    private static final String PASSWORD = "yourpassword";
 
     public static Connection getConnection() throws SQLException {
         try {
